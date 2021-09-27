@@ -3,15 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="icon" href="images/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"
+    ></script>
+    <script type="text/javascript" src="js/infinite-rotator.js"></script>
   </head>
 
-  <body>
+  <body id="portfolio">
     <!-- Your content goes here -->
-    <h1>Nick Pisciotta</h1>
+    <header><h1>Nick Pisciotta</h1></header>
     <nav>
       <ul>
         <li><a href="index.html">About</a></li>
@@ -23,11 +46,50 @@
       <!-- <img src="images/me.png" /> -->
       <h1>Portfolio</h1>
       <ul id="portfolioItems">
-        <li><h2>Project Name 1</h2></li>
-        <li><h2>Project Name 2</h2></li>
+        <li>
+          <h2>
+            <a href="https://devpost.com/software/proteam-transportation-08"
+              >CommuteIndy</a
+            >
+          </h2>
+          <div id="rotating-item-wrapper">
+            <img
+              class="rotating-item"
+              src="loopImages/commuteindy-1.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            />
+            <img
+              class="rotating-item"
+              src="loopImages/commuteindy-2.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            /><img
+              class="rotating-item"
+              src="loopImages/commuteindy-3.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            /><img
+              class="rotating-item"
+              src="loopImages/commuteindy-4.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            /><img
+              class="rotating-item"
+              src="loopImages/commuteindy-5.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            /><img
+              class="rotating-item"
+              src="loopImages/commuteindy-6.jpg"
+              alt="CommuteIndy app screenshot"
+              height="300"
+            />
+          </div>
+        </li>
       </ul>
     </main>
-    <footer>Email me</footer>
+    <footer>Email me at npisciotta16@gmail.com</footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
